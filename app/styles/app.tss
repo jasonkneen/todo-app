@@ -1,0 +1,19 @@
+"TableView" : {
+	//rowHeight: 45
+}
+
+"TableViewRow" : {
+	tintColor: "red",
+	height: 45
+}
+
+".container": {
+	backgroundColor:"#EEE"
+}
+
+"Label": {
+	font: {
+		fontSize: 18
+	},
+	color: "black"
+}

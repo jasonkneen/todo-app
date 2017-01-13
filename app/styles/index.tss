@@ -1,0 +1,32 @@
+"Label" : {
+	left: 15
+}
+"Window" : {
+	layout: "vertical",
+	barColor: "red",
+	navTintColor: "black"
+}
+"#taskName" : {
+	hintText: "e.g. Go Shopping",
+	height: 45,
+	left: 20,
+	width: "60%",
+	color: "black"
+}
+"#taskName[platform=android]" : {
+	hintTextColor: "grey"
+}
+"#addTask" : {
+	right: 12,
+	title: "Add",
+	tintColor: "red"
+}
+"#addTask[platform=android]" : {
+	backgroundColor: "red",
+	height: 40
+}
+".wrapper" : {
+	left: 0,
+	height: Ti.UI.SIZE,
+	right: 0
+}
