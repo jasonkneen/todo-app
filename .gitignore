@@ -11,3 +11,4 @@ Thumbs.db
 app/lib/crux*
 app/lib/reste.js
 plugins/*
+app/lib/alloyXL.js
