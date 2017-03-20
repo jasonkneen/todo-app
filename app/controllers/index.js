@@ -7,12 +7,12 @@ function handleRowClick(e) {
 
 function handleAdd() {
     if ($.taskName.value) {
-        Alloy.Collections.tasks.add(Alloy.Globals.reste.createModel("task", {
-            name: $.taskName.value,
+        Alloy.Collections.tasks.add(Alloy.Globals.mock.createModel("task", {
+            description: $.taskName.value,
             completed: false
         }));
 
-        $.taskName.value = null;
+        $.taskName.value = "";
 
     } else {
         alert("Enter a description!");

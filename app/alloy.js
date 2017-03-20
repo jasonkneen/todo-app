@@ -10,16 +10,17 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
-Alloy.Globals.reste = require("reste")();
+Alloy.Globals.mock = require("alloyMock");
+//Alloy.Globals.reste = new require("reste")();
 
-Alloy.Globals.reste.createCollection("tasks", [{
-    name: "Do some stuff",
+Alloy.Globals.mock.createCollection("tasks", [{
+    description: "Do some stuff",
     completed: false
-}, {
-    name: "Shopping",
+}, {    
+    description: "Shopping",
     completed: true
 }]);
 
-Alloy.Collections.tasks.on("change", function() {
-    Ti.App.Properties.setObject("tasks", Alloy.Collections.tasks.toJSON());
-});
+//Alloy.Collections.tasks.on("change", function() {
+    //Ti.App.Properties.setObject("tasks", Alloy.Collections.tasks.toJSON());
+//});
