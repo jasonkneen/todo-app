@@ -1,7 +1,24 @@
 exports.createNavigationWindow = function(args) {
-    if (OS_IOS) {
-        return Ti.UI.iOS.createNavigationWindow(args);
+
+    function navigationWindow(args) {
+
+        this.open = function(options) {
+            args.window.open();
+        };
+
+        this.openWindow = function(win) {
+            win.open();
+        };
+
+        this.closeWindow = function(win) {
+            win.close();
+        };
+
+    }
+
+    if (OS_ANDROID) {
+        return new navigationWindow(args);
     } else {
-        return args.window;
+        return Ti.UI.iOS.createNavigationWindow(args);
     }
 };

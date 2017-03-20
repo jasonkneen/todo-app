@@ -10,17 +10,17 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
-Alloy.Globals.mock = require("alloyMock");
-//Alloy.Globals.reste = new require("reste")();
+Alloy.Globals.mock = require("mock");
 
 Alloy.Globals.mock.createCollection("tasks", [{
     description: "Do some stuff",
     completed: false
-}, {    
+}, {
     description: "Shopping",
     completed: true
 }]);
 
+// showing local storage
 //Alloy.Collections.tasks.on("change", function() {
     //Ti.App.Properties.setObject("tasks", Alloy.Collections.tasks.toJSON());
 //});
