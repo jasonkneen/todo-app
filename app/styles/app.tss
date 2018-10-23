@@ -1,19 +1,33 @@
-"TableView" : {
-	//rowHeight: 45
+"TableView": {
+	backgroundColor: "#fff"
 }
 
-"TableViewRow" : {
+"TableViewRow": {
 	tintColor: "red",
 	height: 45
 }
 
+"TableViewRow[platform=android]": {
+	tintColor: "red",
+	height: 45	
+}
+
 ".container": {
-	backgroundColor:"#EEE"
+	backgroundColor: "#EEE"
+}
+
+".wrapper[platform=android]": {
+	backgroundColor: "#EEE",
+	height: 55
 }
 
 "Label": {
 	font: {
 		fontSize: 18
 	},
-	color: "black"
+	color: "black",
+}
+
+"TextField[platform=android]": {
+	backgroundColor: null
 }

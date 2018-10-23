@@ -1,5 +1,6 @@
 .DS_Store
 Resources
+Platform
 build.log
 build
 npm-debug.log

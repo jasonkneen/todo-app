@@ -4,14 +4,14 @@
         <!--<item name="android:statusBarColor">#FF0000</item>-->
         <item name="colorPrimaryDark">#AA0000</item>
         <item name="colorPrimary">#FF0000</item>
-        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlNormal">#000000</item>    
         <item name="colorControlActivated">#FF0000</item>
         <item name="colorSwitchThumbNormal">#CCCCCC</item>
         <item name="android:navigationBarColor">#AA0000</item>
         <item name="android:colorForeground">#CCCCCC</item>
     </style>
 
-    <style name="YourmedsChildScreen" parent="@style/todo">
+    <style name="todoChildScreen" parent="@style/todo">
         <!--<item name="android:statusBarColor">#AA0000</item>-->
         <item name="colorControlActivated">#FF0000</item>
     </style>
