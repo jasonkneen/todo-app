@@ -12,3 +12,4 @@ app/lib/crux*
 app/lib/reste.js
 plugins/*
 app/lib/alloyXL.js
+app/lib/reste.js

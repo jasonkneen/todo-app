@@ -10,9 +10,9 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
-Alloy.Globals.mock = require("mock");
+Alloy.Globals.reste = require("reste")();
 
-Alloy.Globals.mock.createCollection("tasks", [{
+Alloy.Globals.reste.createCollection("tasks", [{
     description: "Do some stuff",
     completed: false
 }, {

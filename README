@@ -1,1 +1,13 @@
-Todo Demo App
+Todo Demo App for Titanium Alloy
+
+To run:
+
+- Install Appcelerator CLI / Titanium CLI 
+- Install and run XCode and Install Android SDKs
+- Install Alloy
+
+(see www.appcelerator.com)
+
+In the root folder:
+
+- npm install reste
