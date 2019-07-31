@@ -3,6 +3,10 @@
 	height: 45
 }
 
+"TableViewRow[platform=ios]": {
+	selectionStyle: Titanium.UI.iOS.TableViewCellSelectionStyle.NONE
+}
+
 "TableViewRow[platform=android]": {
 	tintColor: "red",
 	height: 45
@@ -29,7 +33,7 @@
 }
 
 "TableView": {
-	backgroundColor: "#fff",	
+	backgroundColor: "#fff",
 }
 
 ".bigText": {
@@ -48,4 +52,13 @@
 	font: {
 		fontWeight: "bold"
 	}
+}
+
+"Window": {
+	navTintColor: "white",	
+	titleAttributes: {
+		color: "white"
+	},
+	barColor: "red",	
+	navTintColor: "white"
 }

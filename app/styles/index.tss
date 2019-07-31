@@ -3,15 +3,12 @@
 }
 "Window": {
 	layout: "vertical",
-	barColor: "red",
-	backgroundColor: "white",
-	navTintColor: "black"
 }
 "#taskName": {
 	hintText: "e.g. Go Shopping",
 	height: 45,
 	left: 20,
-	right: 50,	
+	right: 50,
 	color: "black"
 }
 "#taskName[platform=android]": {
@@ -36,4 +33,19 @@
 	left: 0,
 	height: Ti.UI.SIZE,
 	right: 0
+}
+
+"TabbedBar[platform=ios]": {
+	left: 10,
+	right: 10,
+	tintColor: "red",
+	borderRadius: 0,
+	index: 0
+}
+
+"TabbedBar[platform=android]": {
+	left: 0,
+	right: 0,
+	index: 0,
+	backgroundColor: "red"
 }
