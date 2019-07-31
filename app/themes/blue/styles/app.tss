@@ -1,0 +1,9 @@
+"TableViewRow": {
+	tintColor: "blue",
+	height: 45
+}
+
+"TableViewRow[platform=android]": {
+	tintColor: "blue",
+	height: 45
+}

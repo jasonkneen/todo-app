@@ -1,0 +1,19 @@
+"Window": {
+	layout: "vertical",
+	barColor: "blue",
+	backgroundColor: "white",
+	navTintColor: "black"
+}
+"#addTask": {
+	tintColor: "blue"
+}
+"#addTask[platform=android]": {
+	color: "blue",
+	right: -10,
+	font: {
+		fontSize: 16
+	},
+	backgroundColor: "transparent",
+	backgroundImage: null,
+	height: 40
+}

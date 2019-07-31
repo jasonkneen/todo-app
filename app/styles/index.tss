@@ -11,7 +11,7 @@
 	hintText: "e.g. Go Shopping",
 	height: 45,
 	left: 20,
-	width: "60%",
+	right: 50,	
 	color: "black"
 }
 "#taskName[platform=android]": {

@@ -1,0 +1,21 @@
+"Window": {
+	layout: "vertical",
+	barColor: "green",
+	backgroundColor: "white",
+	navTintColor: "black"
+}
+"#addTask": {
+	right: 12,
+	title: "Add",
+	tintColor: "green"
+}
+"#addTask[platform=android]": {
+	color: "green",
+	right: -10,
+	font: {
+		fontSize: 16
+	},
+	backgroundColor: "transparent",
+	backgroundImage: null,
+	height: 40
+}

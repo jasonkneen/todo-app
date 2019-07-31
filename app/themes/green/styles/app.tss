@@ -1,0 +1,16 @@
+"TableViewRow": {
+	tintColor: "green",
+	height: 45
+}
+
+"TableViewRow[platform=android]": {
+	tintColor: "green",
+	height: 45
+}
+
+
+".boldText": {
+	font: {
+		fontWeight: "normal"
+	}
+}

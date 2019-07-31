@@ -1,4 +1,3 @@
-
 "TableViewRow": {
 	tintColor: "red",
 	height: 45
@@ -6,11 +5,11 @@
 
 "TableViewRow[platform=android]": {
 	tintColor: "red",
-	height: 45	
+	height: 45
 }
 
 ".container": {
-	backgroundColor: "#EEE"
+	backgroundColor: "#FFF"
 }
 
 ".wrapper[platform=android]": {
@@ -30,5 +29,23 @@
 }
 
 "TableView": {
-	backgroundColor: "#fff"	
+	backgroundColor: "#fff",	
+}
+
+".bigText": {
+	font: {
+		fontSize: 22
+	}
+}
+
+".smallText": {
+	font: {
+		fontSize: 15
+	}
+}
+
+".boldText": {
+	font: {
+		fontWeight: "bold"
+	}
 }
