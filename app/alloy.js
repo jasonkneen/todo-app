@@ -12,15 +12,23 @@
 
 Alloy.Globals.reste = require("reste")();
 
-Alloy.Globals.reste.createCollection("tasks", [{
-    description: "Do some stuff",
-    completed: false
-}, {
-    description: "Shopping",
-    completed: true
-}]);
+// load from properties or create demo collection
+if (Ti.App.Properties.hasProperty("tasks")) {
+    
+    Alloy.Globals.reste.createCollection("tasks", Ti.App.Properties.getObject("tasks"));
 
-// showing local storage
-//Alloy.Collections.tasks.on("change", function() {
-    //Ti.App.Properties.setObject("tasks", Alloy.Collections.tasks.toJSON());
-//});
+} else {
+    
+    Alloy.Globals.reste.createCollection("tasks", [{
+        description: "Do some stuff",
+        completed: false
+    }, {
+        description: "Shopping",
+        completed: true
+    }]);
+}
+
+// save locally on change
+Alloy.Collections.tasks.on("change", function () {
+    Ti.App.Properties.setObject("tasks", Alloy.Collections.tasks.toJSON());
+});
