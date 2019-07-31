@@ -9,7 +9,7 @@ function filterModels(collection) {
     console.warn($.displayFilter.index)
 
     if ($.displayFilter.index == 0) {
-        return collection.models
+        return collection.models;
     }
 
     if ($.displayFilter.index == 1) {
